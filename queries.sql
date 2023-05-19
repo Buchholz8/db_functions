@@ -23,7 +23,7 @@ insert into for_sale_cars(dealership_id, price, make, model, `year`) values
 select make, model ,`year` from for_sale_cars fsc order by `year` desc;
 
 select name, location 
-from dealership d order by date_established axc
+from dealership d order by date_established asc
 limit 1;
 
 select fsc.make, fsc.model, fsc.`year`,d.name,d.location,fsc.price
